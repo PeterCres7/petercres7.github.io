@@ -1,0 +1,19 @@
+.header {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    background-image: url("http://i.imgur.com/pQJBVfr.jpg");
+    background-size: auto;
+    padding: 4rem;
+}
+
+.tablink{
+    background-color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 2rem;
+    width: 50%;
+}
