@@ -8,12 +8,18 @@ function ShowAbout() {
     document.getElementById("Hello").hidden = true;
     document.getElementById("Projects").hidden = true;
     document.getElementById("About").hidden = false;
+
+    document.getElementById("todocard").hidden = true;
+    document.getElementById("appiumcard").hidden = true;
 }
 
 function ShowProjects() {
     document.getElementById("Hello").hidden = true;
     document.getElementById("About").hidden = true;
     document.getElementById("Projects").hidden = false;
+
+    document.getElementById("todocard").hidden = false;
+    document.getElementById("appiumcard").hidden = false;
 }
 
 
