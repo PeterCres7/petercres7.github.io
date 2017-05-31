@@ -1,14 +1,14 @@
 let MyTasks = `
 The project was build using Xamarin and
-intuduses a simple To Do application that can
-store tasks localy in the device memory using 
-MySQL DataBase. An intresting addition to the
+introduces a simple To Do application that can
+store tasks locally in the device memory using 
+MySQL DataBase. An interesting addition to the
 application was the Notification count icon
 which prove quite difficult.
 The Project was done to help me get more
 familiar with Xamarin as a whole as I am a 
-strong beliver that the better you understand
+strong believer that the better you understand
 what needs to be automated the better you are
-at approaching the problems that comeup when 
+at approaching the problems that come up when 
 working with the technology.
 `;

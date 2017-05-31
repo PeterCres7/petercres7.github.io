@@ -1,5 +1,7 @@
 document.getElementById("Projects").hidden = true;
 document.getElementById("About").hidden = true;
+document.getElementById("todocard").hidden = true;
+document.getElementById("appiumcard").hidden = true;
 
 document.getElementById("TasksDes").textContent = MyTasks;
 document.getElementById("AppiumDes").textContent = MyAppium;
@@ -11,6 +13,8 @@ function ShowAbout() {
 
     document.getElementById("todocard").hidden = true;
     document.getElementById("appiumcard").hidden = true;
+
+    document.getElementById("AboutSection").hidden = false;
 }
 
 function ShowProjects() {
@@ -20,6 +24,8 @@ function ShowProjects() {
 
     document.getElementById("todocard").hidden = false;
     document.getElementById("appiumcard").hidden = false;
+
+    document.getElementById("AboutSection").hidden = true;
 }
 
 

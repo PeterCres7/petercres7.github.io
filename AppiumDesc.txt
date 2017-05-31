@@ -1,3 +1,6 @@
 let MyAppium = `
-Appium bla bla!
+I have worked with Selenium for a few years but when I started doing mobile automation my company was making applications with Xamarin so a more natural choice was to continue with either Calabash or the Xamarin.UI.Test(Which is pretty much the same) since is just a wrapper around it.
+Anyway I was always curious to check out appium as it felt like something familiar and something that might be a great fit for future projects.
+This project is using the same structure I have utilised in my xamarin project so it was quite cool to realise that I can swap out quickly the underlying technology to something else.
+The structure is based on the page object model with the exception of the way the drive is being called maybe but overall there is nothing majorly different than any standard BDD framework.
 `;

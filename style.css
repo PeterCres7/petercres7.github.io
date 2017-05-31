@@ -38,3 +38,12 @@
     font-size: 1.25rem;
     font-family: 'Lato', sans-serif;
 }
+
+.ImageSection {
+    width: 100%;
+    text-align: center; 
+}
+
+#photo{
+    border-radius: 50%;    
+}
