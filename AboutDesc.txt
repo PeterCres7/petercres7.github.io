@@ -1,0 +1,16 @@
+let MyDesc = `
+Highly proficient, goal oriented, versatile,
+ dedicated Quality Assurance Engineer with
+  experience in Testing, Development and Deployment
+   under both Waterfall and Agile development
+    methodologies. Extensive experience in 
+    black box testing, 
+    regression testing and performance 
+    testing and management. Always looking 
+    for new ideas and concepts to implement 
+    in the existing processes. 
+    Now looking to build on to existing skills 
+    with a suitable challenging role and to 
+    make a successful impact in a customer 
+    focused team.
+    `;

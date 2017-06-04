@@ -1,68 +1,73 @@
 <!doctype html>
 <html>
+
 <head>
-	<title>Peter Crest</title>
-	<link rel="stylesheet" type="text/css" href="style.css"/> 	
+    <title>Peter Crest</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-<body>
 
-	<div id="Hello" class="header">
-		<h1>Peter Krastanov</h1>
-	</div>
+<body onload="LoadingDone()">
 
-	<div id="About" class="header">
-		<h1>About</h1>
-	</div>
+    <div id="Hello" class="header">
+        <h1>Peter Krastanov</h1>
+    </div>
 
-	<div id="Projects" class="header">
-		<h1>Projects</h1>
-	</div>
+    <div id="About" class="header">
+        <h1>About</h1>
+    </div>
 
-	<button class="tablink" onclick="ShowAbout()">About</button>
-	<button class="tablink" onclick="ShowProjects()">Projects</button>
+    <div id="Projects" class="header">
+        <h1>Projects</h1>
+    </div>
 
+    <button class="tablink" onclick="ShowAbout()">About</button>
+    <button class="tablink" onclick="ShowProjects()">Projects</button>
 
-	<div id="todocard" class="card">
+    <a href="https://play.google.com/store/apps/details?id=step10.step10&hl=en_GB">
+        <div id="todocard" class="card">
 
-		<div class="cardheader">
-			<h1>Tasks ToDo</h1>
-		</div>
+            <div class="cardheader">
+                <h1>Tasks ToDo</h1>
+            </div>
 
-		<div class="cardimage">
-			<img src="http://i.imgur.com/7OU6NEJ.png">
-		</div>
-			
-		<div class="carddescription">
-			<p id="TasksDes">Descritpion</p>
-		</div>
+            <div class="cardimage">
+                <img src="http://i.imgur.com/7OU6NEJ.png">
+            </div>
 
-	</div>
+            <div class="carddescription">
+                <p id="TasksDes">Descritpion</p>
+            </div>
 
-	<div id="appiumcard" class="card">
+        </div>
+    </a>
 
-		<div class="cardheader">
-			<h1>Appium with Specflow</h1>
-		</div>
+    <a href="https://github.com/PeterCres7/AppiumSpecflow">
+        <div id="appiumcard" class="card">
 
-		<div class="cardimage">
-			<img src="http://i.imgur.com/KLbKusR.png?2">
-		</div>
-			
-		<div class="carddescription">
-			<p id="AppiumDes">Descritpion</p>
-		</div>
+            <div class="cardheader">
+                <h1>Appium with Specflow</h1>
+            </div>
 
-	</div>
+            <div class="cardimage">
+                <img src="http://i.imgur.com/KLbKusR.png?2">
+            </div>
 
-	<div class="ImageSection">
-		<img id="photo" src="http://i.imgur.com/JK7684G.jpg?1"
-	</div>
+            <div class="carddescription">
+                <p id="AppiumDes">Descritpion</p>
+            </div>
 
-	<p id="AboutDes">Descritpion</p>
+        </div>
+    </a>
 
-	<script src="AppiumDesc.txt"></script>
-	<script src="TasksToDoDesc.txt"></script>
-	<script src="logick.js"></script>
-	
+    <div class="ImageSection">
+        <img id="photo" src="http://i.imgur.com/JK7684G.jpg?1" </div>
+
+        <p id="AboutDes">Descritpion</p>
+
+        <script src="AppiumDesc.txt"></script>
+        <script src="TasksToDoDesc.txt"></script>
+        <script src="logick.js"></script>
+
 </body>
+
 </html>
