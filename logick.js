@@ -32,5 +32,5 @@ function ShowProjects() {
 }
 
 function LoadingDone() {
-    //Will need for the fetures!
+    //Will need for the features!
 }
