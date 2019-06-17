@@ -57,3 +57,7 @@ a {
     font-size: 1.50rem;
     font-family: 'Lato', sans-serif;
 }
+
+.BuildStatus {
+    padding: 25px;
+}

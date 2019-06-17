@@ -2,10 +2,12 @@ document.getElementById("Projects").hidden = true;
 document.getElementById("About").hidden = true;
 document.getElementById("todocard").hidden = true;
 document.getElementById("appiumcard").hidden = true;
+document.getElementById("statusweathercard").hidden = true;
 
 document.getElementById("TasksDes").textContent = MyTasks;
 document.getElementById("AppiumDes").textContent = MyAppium;
 document.getElementById("AboutDes").textContent = MyDesc;
+document.getElementById("StatusWeatherDes").textContent = MyWeather;
 
 function ShowAbout() {
     document.getElementById("Hello").hidden = true;
@@ -14,6 +16,7 @@ function ShowAbout() {
 
     document.getElementById("todocard").hidden = true;
     document.getElementById("appiumcard").hidden = true;
+    document.getElementById("statusweathercard").hidden = true;
 
     document.getElementById("photo").hidden = false;
     document.getElementById("AboutDes").hidden = false;
@@ -26,6 +29,7 @@ function ShowProjects() {
 
     document.getElementById("todocard").hidden = false;
     document.getElementById("appiumcard").hidden = false;
+    document.getElementById("statusweathercard").hidden = false;
 
     document.getElementById("photo").hidden = true;
     document.getElementById("AboutDes").hidden = true;
