@@ -1,0 +1,5 @@
+let MyWeather = `
+Status weather is the latest addition to my projects. It is a project concentrating on Android and giving the user some unique functionality such as current temperature reading in the status bar, custom notification layout showing the weather forecast for the next 3 hours. 
+Additionally the user enjoys full weekly forecast as well as hourly overview for the next 48 hours.
+As the project is not live yet you can get the beta from my App Center distribution. Enjoy!
+    `;
